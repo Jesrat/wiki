@@ -3,8 +3,26 @@ name: Documentation
 on:
   push:
     branches: [main]
+    paths: &site-paths
+      - "**"
+      # Not part of the built site
+      - "!_exclude/**"
+      - "!scripts/**"
+      - "!_redirects.json"
+      - "!_redirects_moin.json"
+      - "!.github/dependabot.yml"
+      - "!.github/workflows/linkcheck.yml"
+      - "!.github/workflows/preview.yml"
+      - "!.pre-commit-config.yaml"
+      - "!.env.example"
+      - "!LICENSE-*"
+      - "!Makefile"
+      - "!oauth/**"
+      # Rendered by autodoc in contributing/api.md
+      - "oauth/app.py"
   pull_request:
     branches: [main]
+    paths: *site-paths
   workflow_dispatch:
 
 permissions:

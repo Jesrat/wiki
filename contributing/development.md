@@ -82,7 +82,7 @@ make oauth-test
 
 Three GitHub Actions workflows keep things running:
 
-**`docs.yml`** -- Builds the full Sphinx site on every push to `main` and deploys to GitHub Pages. Also runs on PRs to catch build errors before merge. Uses the Sphinx doctree cache so incremental builds don't start from scratch.
+**`docs.yml`** -- Builds the full Sphinx site on pushes to `main` and deploys to GitHub Pages. Also runs on PRs to catch build errors before merge. Changes that can't affect the site (`scripts/`, `_exclude/`, `oauth/` apart from `app.py`, other workflows, etc.) skip it. The `_build` directory is cached per `uv.lock`, so most builds only re-render the pages that changed; a dependency update starts from scratch.
 
 **`preview.yml`** -- Generates a deploy preview for every pull request. It detects which wiki section(s) changed and scopes the build accordingly -- if you only touched files in `psf/`, it only builds the PSF wiki. The preview URL gets posted as a comment on the PR.
 
