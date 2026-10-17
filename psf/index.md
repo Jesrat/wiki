@@ -51,8 +51,8 @@ The purpose of this wiki is as a space for collaborative editing:
 ```{toctree}
 :maxdepth: 2
 
-Communications/index
 about/index
+communications/index
 governance/index
 marketing/index
 packaging/index

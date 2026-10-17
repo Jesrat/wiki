@@ -89,12 +89,11 @@ Python combines remarkable power with very clear syntax. It has modules, classes
 ```{toctree}
 :maxdepth: 2
 
-Documentation/index
-Packaging/index
 archive/index
 books/index
 community/index
 database/index
+documentation/index
 editors/index
 education/index
 getting-started/index
@@ -107,6 +106,7 @@ language/index
 libraries/index
 multimedia/index
 networking/index
+packaging/index
 performance/index
 platforms/index
 psf/index
