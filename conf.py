@@ -131,6 +131,9 @@ html_context = {
 
 html_theme_options = {
     "accent_color": "blue",
+    # Render only the current page's branch in the sidebar. The full tree
+    # (~2,600 entries) on every page made writing O(pages²): ~20 min in CI.
+    "toctree_collapse": True,
     "github_url": "https://github.com/psf/wiki",
     "twitter_url": "https://x.com/ThePSF",
     "mastodon_url": "https://fosstodon.org/@ThePSF",
