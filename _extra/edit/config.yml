@@ -14,7 +14,10 @@ collections:
     label: Python Wiki
     label_singular: Python Wiki Page
     folder: python
-    path: "{{dirname}}/{{filename}}"
+    nested:
+      depth: 100
+      subfolders: false
+    meta: { path: { label: Path, widget: string } }
     create: true
     extension: md
     summary: "{{dirname}}/{{filename}}"
@@ -30,7 +33,10 @@ collections:
     label: PSF Wiki
     label_singular: PSF Wiki Page
     folder: psf
-    path: "{{dirname}}/{{filename}}"
+    nested:
+      depth: 100
+      subfolders: false
+    meta: { path: { label: Path, widget: string } }
     create: true
     extension: md
     summary: "{{dirname}}/{{filename}}"
@@ -46,7 +52,10 @@ collections:
     label: Jython Wiki
     label_singular: Jython Wiki Page
     folder: jython
-    path: "{{dirname}}/{{filename}}"
+    nested:
+      depth: 100
+      subfolders: false
+    meta: { path: { label: Path, widget: string } }
     create: true
     extension: md
     summary: "{{dirname}}/{{filename}}"
