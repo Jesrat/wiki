@@ -3,19 +3,28 @@
 ```{toctree}
 :maxdepth: 1
 
+MiscellaneousServices/index
+OptionalOperatingSystemServices/index
+ThePythonProfiler/index
+CryptographicServices
 GenericOperatingSystemServices
 GraphicalUserInterfacesWithTk
 HistoryAndLicense
 InternetDataHandling
 InternetProtocolsAndSupport
+MiscellaneousServices
 MsWindowsSpecificServices
+MultimediaServices
 OptionalOperatingSystemServices
 PythonCompilerPackage
 PythonLanguageServices
+ReportingBugs
+RestrictedExecution
 SgiIrixSpecificServices
 StructuredMarkupProcessingTools
 SunOsSpecificServices
 ThePythonDebugger
 ThePythonProfiler
+UndocumentedModules
 UnixSpecificServices
 ```

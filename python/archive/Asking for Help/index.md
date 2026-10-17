@@ -7,8 +7,10 @@
 How come when I double click on a .py a black thing flashes and then disappears_ And what/index
 How do I detect the circles/index
 'break' outside loop
+Can Python introspect like Java_
 Defining rules for adding two different data types.
 Do you need a int main() like you do in c++
+Gui Toolkit for python 3_
 How can I add or substract two to the last digit of a float_
 How can I convert a hex representation to an integer_
 How can I import a module from a sibling directory_
@@ -30,6 +32,7 @@ I tried to port python 2.7 to iOS and got _Fatal Python error_ exceptions bootst
 I want to right-click on data files in Windows XP and open them with a Python program.
 I wish to generate graphics and images directly into a file, but I'm confused as to just what i need to do this with python
 I'm taking an unhandled threading exception that I've been unable to locate
+Installation Errors
 Is there a way to create a file object from text without touching the file system_
 Is there a way to use i instead of j for complex numbers_
 Python ISO-8859-1 encoding problem
@@ -39,7 +42,9 @@ SVN Hook problem
 Slow SYBASE query after version upgrade
 Socket module changed in Python 2.5_
 Stop 'Hello World' from flashing
+SubtractionQuestion
 Using 2.3.5 do I need livewire, where is the best place to install it
+Using Python with native DB2 drivers
 What is wrong with this _game of life_ program_
 What's the simplest way to connect to a MSSQL database via Python v3_ I'm trying sqlite3, but I think I'm barking up the wrong tree...
 Where can I find a tiny python installation (under 2 MB) for an embedded linux system_
