@@ -74,21 +74,28 @@ jobs:
         if: github.event.action != 'closed'
         run: uv sync
 
+      # Sphinx rewrites every page when any template is newer than the last
+      # build, and uv stamps .venv files with install time. The cache keys below
+      # already force a clean build whenever uv.lock changes.
+      - name: Pin theme template mtimes
+        if: github.event.action != 'closed'
+        run: find .venv -name '*.html' -exec touch -d @946684800 {} +
+
       - name: Restore Sphinx build cache
         if: github.event.action != 'closed'
         uses: actions/cache@cdf6c1fa76f9f475f3d7449005a359c84ca0f306 # v5.0.3
         with:
-          path: _build/html
-          key: sphinx-build-preview-${{ github.event.pull_request.head.sha }}
+          path: _build
+          key: sphinx-preview-${{ hashFiles('uv.lock') }}-${{ github.event.pull_request.head.sha }}
           restore-keys: |
-            sphinx-build-preview-
-            sphinx-build-
+            sphinx-preview-${{ hashFiles('uv.lock') }}-
+            sphinx-${{ hashFiles('uv.lock') }}-
 
       - name: Build Sphinx site
         if: github.event.action != 'closed'
         env:
           WIKI: ${{ steps.detect.outputs.wiki }}
-        run: uv run sphinx-build -b html . _build/html -j auto --keep-going
+        run: uv run sphinx-build -b html . _build/html -d _build/doctrees -j auto --keep-going
 
       - name: Deploy preview
         uses: rossjrw/pr-preview-action@ffa7509e91a3ec8dfc2e5536c4d5c1acdf7a6de9 # v1.8.1

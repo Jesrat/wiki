@@ -43,16 +43,22 @@ jobs:
       - name: Install dependencies
         run: uv sync
 
+      # Sphinx rewrites every page when any template is newer than the last
+      # build, and uv stamps .venv files with install time. The cache key below
+      # already forces a clean build whenever uv.lock changes.
+      - name: Pin theme template mtimes
+        run: find .venv -name '*.html' -exec touch -d @946684800 {} +
+
       - name: Restore Sphinx build cache
         uses: actions/cache@cdf6c1fa76f9f475f3d7449005a359c84ca0f306 # v5.0.3
         with:
-          path: _build/html
-          key: sphinx-build-${{ github.sha }}
+          path: _build
+          key: sphinx-${{ hashFiles('uv.lock') }}-${{ github.sha }}
           restore-keys: |
-            sphinx-build-
+            sphinx-${{ hashFiles('uv.lock') }}-
 
       - name: Build Sphinx site
-        run: uv run sphinx-build -b html . _build/html -j auto --keep-going
+        run: uv run sphinx-build -b html . _build/html -d _build/doctrees -j auto --keep-going
 
       - name: Upload artifact
         if: github.ref == 'refs/heads/main'

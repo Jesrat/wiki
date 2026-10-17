@@ -51,7 +51,7 @@ exclude_patterns = [
 _wiki_only = os.environ.get("WIKI")
 if _wiki_only:
     _all_wikis = {"python", "psf", "jython"}
-    for _w in _all_wikis - {_wiki_only}:
+    for _w in sorted(_all_wikis - {_wiki_only}):
         exclude_patterns.append(f"{_w}/**")
 
     _section = os.environ.get("SECTION")
@@ -226,7 +226,19 @@ def _copy_wiki_attachments(app, exception):
             html_file.write_text(fixed, encoding="utf-8")
 
 
+def _drop_missing_dependencies(app, doctree):
+    # Converted pages reference ~450 images that don't exist in the source
+    # tree (MoinMoin smileys, attachments copied at build-finished). Sphinx
+    # treats a missing dependency as a change, so ~300 pages were re-read and
+    # rewritten on every incremental build.
+    deps = app.env.dependencies.get(app.env.docname)
+    if deps:
+        deps.difference_update([dep for dep in deps if not dep.is_file()])
+
+
 def setup(app):
+    # Run after Sphinx's image collector records the dependencies.
+    app.connect("doctree-read", _drop_missing_dependencies, priority=900)
     app.connect("build-finished", _copy_wiki_attachments)
 
 
