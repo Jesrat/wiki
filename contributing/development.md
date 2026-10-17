@@ -35,7 +35,7 @@ make docs
 
 ### How the CMS authentication works
 
-Decap CMS needs an OAuth handshake with GitHub to get a token for the user. GitHub's OAuth flow requires a server-side component (client secrets can't live in browser JS), so there's a small [Litestar](https://litestar.dev/) app in the `oauth/` directory that handles this.
+Sveltia CMS needs an OAuth handshake with GitHub to get a token for the user. GitHub's OAuth flow requires a server-side component (client secrets can't live in browser JS), so there's a small [Litestar](https://litestar.dev/) app in the `oauth/` directory that handles this.
 
 The flow goes like this:
 
@@ -94,14 +94,14 @@ Three GitHub Actions workflows keep things running:
 python/                 Python wiki content (3,274 pages)
 psf/                    PSF wiki content (378 pages)
 jython/                 Jython wiki content (433 pages)
-oauth/                  GitHub OAuth proxy for Decap CMS
+oauth/                  GitHub OAuth proxy for Sveltia CMS
   app.py                The Litestar application (3 routes)
   Dockerfile            Production container image
   Procfile              Cabotage process definition
   pyproject.toml        Proxy-specific dependencies
   tests/                Proxy test suite
   k8s/                  Kubernetes manifests (ingress)
-_extra/admin/           Decap CMS frontend (config.yml + loader HTML)
+_extra/edit/            Sveltia CMS frontend (config.yml + loader HTML)
 _static/                CSS and static assets
 _templates/             Sphinx HTML template overrides
 _redirects.json         All 5,400+ redirect mappings

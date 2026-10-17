@@ -1,6 +1,6 @@
 # OAuth API Reference
 
-The OAuth proxy lives in `oauth/app.py` and handles the GitHub OAuth handshake for Decap CMS. Three routes, one module, no database.
+The OAuth proxy lives in `oauth/app.py` and handles the GitHub OAuth handshake for Sveltia CMS. Three routes, one module, no database.
 
 When running locally (`make oauth-serve`), [Litestar](https://litestar.dev/) auto-generates interactive API docs at [http://localhost:8000/api](http://localhost:8000/api) via the Scalar UI plugin. In production, the same docs are at [api.wiki.python.org/api](https://api.wiki.python.org/api).
 

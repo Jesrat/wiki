@@ -46,11 +46,11 @@ make redirects
 
 ### On GitHub with CMS
 
-For people who'd rather not touch Git directly, there's a browser-based editor at `/admin/` on the live site. It's powered by [Decap CMS](https://decapcms.org/) (the maintained fork of Netlify CMS).
+For people who'd rather not touch Git directly, there's a browser-based editor at `/edit/` on the live site, also linked from the **Contribute** menu. It's powered by [Sveltia CMS](https://sveltiacms.app/).
 
-You log in with your GitHub account, pick a page from any of the three wiki sections, edit it in a rich-text-ish Markdown editor, and save. Behind the scenes, Decap CMS creates a branch and pull request on your behalf. The editorial workflow means your changes go through review before merging, same as any other PR.
+You log in with your GitHub account, pick a page from any of the three wiki sections, edit it in a rich-text-ish Markdown editor, and save. Each wiki section is shown as a folder tree, and new pages get a folder picker so you can choose where they go. Saving commits the change straight to `main` -- there's no pull request or review step -- so the CMS only works for accounts with write access to `psf/wiki`. Everyone else should use the pull request flow above.
 
-The CMS configuration lives in `_extra/admin/config.yml`. It defines three collections (one per wiki section) and uses `open_authoring`, which means anyone with a GitHub account can propose edits -- they don't need write access to the repo.
+The CMS configuration lives in `_extra/edit/config.yml` and defines three collections, one per wiki section. The Sveltia version is pinned in `_extra/edit/index.html`; when you bump it, load `/edit/` once to check for new configuration errors.
 
 ### Without GitHub
 
