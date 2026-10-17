@@ -6,18 +6,14 @@
 
 AaronWatters/index
 Admin/index
-AlexandreQuessy/index
 AndrewKuchling/index
 Asking for Help/index
-BobIppolito/index
 Console/index
 Email SIG/index
-EricLewin/index
 EtienneRobillard/index
 GIS/index
 JAM/index
 Languages/index
-LeeEdwin/index
 MarcAndreLemburg/index
 MartinvonLoewis/index
 PavloShevelo/index

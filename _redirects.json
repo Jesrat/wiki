@@ -6849,5 +6849,18 @@
   "python/archive/PythonLibraryReference/PythonLibraryReference/MiscellaneousServices/index": "python/archive/PythonLibraryReference/MiscellaneousServices/index",
   "python/archive/PythonLibraryReference/PythonLibraryReference/OptionalOperatingSystemServices/index": "python/archive/PythonLibraryReference/OptionalOperatingSystemServices/index",
   "python/archive/PythonLibraryReference/PythonLibraryReference/ThePythonProfiler/index": "python/archive/PythonLibraryReference/ThePythonProfiler/index",
-  "python/archive/PythonLibraryReference/PythonLibraryReference/index": "python/archive/PythonLibraryReference/index"
+  "python/archive/PythonLibraryReference/PythonLibraryReference/index": "python/archive/PythonLibraryReference/index",
+  "jython/about/AndrewKuchling/index": "people/A/Andrew Kuchling/index",
+  "jython/about/CharlieGroves/index": "people/B-C/Charlie Groves/index",
+  "python/archive/AlexandreQuessy/index": "people/A/Alexandre Quessy/index",
+  "python/archive/BobIppolito/index": "people/B-C/Bob Ippolito/index",
+  "python/archive/EricLewin/index": "people/D-E/Eric Lewin/index",
+  "python/archive/LeeEdwin/index": "people/K-L/Lee Edwin/index",
+  "python/community/PortlandPythonUserGroup/index": "python/conferences/pycon/PortlandPythonUserGroup/index",
+  "python/py3/PortingPythonToPy3k/index": "python/gui/PortingPythonToPy3k/index",
+  "jython/newsletter/JythonMonthly/Articles/April2007/index": "jython/newsletter/JythonMonthly/Articles/April2007",
+  "jython/newsletter/JythonMonthly/Articles/April2008/index": "jython/newsletter/JythonMonthly/Articles/April2008",
+  "jython/newsletter/JythonMonthly/Articles/August2006/index": "jython/newsletter/JythonMonthly/Articles/August2006",
+  "jython/newsletter/JythonMonthly/Articles/August2008/index": "jython/newsletter/JythonMonthly/Articles/August2008",
+  "jython/newsletter/JythonMonthly/Articles/October2008/index": "jython/newsletter/JythonMonthly/Articles/October2008"
 }
