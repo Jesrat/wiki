@@ -18,8 +18,7 @@ This section covers the foundation-level basics: what the PSF stands for, how it
 - [Wiki Instructions](WikiInstructions) -- How to edit pages, create links, and use the wiki
 - [Reference Materials](reference) -- Recommended reading for nonprofit management
 
-```plain
-{toctree}
+```{toctree}
 :hidden:
 :maxdepth: 1
 

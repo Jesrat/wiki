@@ -51,6 +51,7 @@ During the python.org redesign, several community members submitted homepage moc
 :maxdepth: 1
 
 AndrewKuchling/index
+PyDevSummaries/index
 PythonWebsite/index
 SiteImprovements/index
 BuildBot

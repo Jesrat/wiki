@@ -92,6 +92,7 @@ Python combines remarkable power with very clear syntax. It has modules, classes
 archive/index
 books/index
 community/index
+conferences/index
 database/index
 documentation/index
 editors/index

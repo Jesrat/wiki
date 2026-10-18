@@ -48,6 +48,7 @@ AbqPython/index
 Advocacy/index
 AdvocacyWritingTasks/index
 BangPypers/index
+FrontRangePythoneers/index
 GetInvolved/index
 Ncr-Python.in/index
 PUB/index

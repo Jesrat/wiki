@@ -57,6 +57,7 @@ Python has been a web development language since the late 1990s, and the ecosyst
 :hidden:
 :maxdepth: 1
 
+DjangoMeetingNL/index
 Dojo-NL/index
 PoundPythonWeb/index
 Albatross

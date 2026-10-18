@@ -23,6 +23,7 @@ These pages cover the tools and coordination efforts behind Python's official do
 :maxdepth: 1
 
 DocsCoordination/index
+Documentation/index
 DocUtils
 DocsCoordination
 Documentation

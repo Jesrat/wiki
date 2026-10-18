@@ -21,6 +21,7 @@ The people and events around Jython. This section lists who uses Jython, who bui
 :hidden:
 :maxdepth: 1
 
+SummerOfCode/index
 BofTopics
 JythonEditors
 JythonSprint

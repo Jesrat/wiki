@@ -30,6 +30,7 @@ Python is a surprisingly good fit for multimedia work -- games, audio processing
 :maxdepth: 1
 
 MacPython/index
+SummerOfCode/index
 Audio
 AudioVideo
 GameProgramming
