@@ -40,7 +40,7 @@ templates_path = ["_templates"]
 exclude_patterns = [
     "_build", "_raw", "_exclude", "_redirects_html", "scripts", ".github", ".claude",
     "Thumbs.db", ".DS_Store", "venv", ".venv",
-    "node_modules", "uv.lock", "pyproject.toml", "Makefile",
+    "node_modules", "uv.lock", "pyproject.toml", "Makefile", "README.md",
     "**/_attachments", "_extra", "oauth",
 ]
 
