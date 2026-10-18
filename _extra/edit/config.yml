@@ -4,8 +4,6 @@ backend:
   branch: main
   base_url: https://api.wiki.python.org
 
-search: false
-
 media_folder: _static/images
 public_folder: /_static/images
 
@@ -19,6 +17,7 @@ collections:
       subfolders: false
     meta: { path: { label: Path, widget: string } }
     create: true
+    slug: { editable: [create] }
     extension: md
     summary: "{{dirname}}/{{filename}}"
     editor:
@@ -38,6 +37,7 @@ collections:
       subfolders: false
     meta: { path: { label: Path, widget: string } }
     create: true
+    slug: { editable: [create] }
     extension: md
     summary: "{{dirname}}/{{filename}}"
     editor:
@@ -57,6 +57,7 @@ collections:
       subfolders: false
     meta: { path: { label: Path, widget: string } }
     create: true
+    slug: { editable: [create] }
     extension: md
     summary: "{{dirname}}/{{filename}}"
     editor:
