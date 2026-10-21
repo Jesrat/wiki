@@ -1,12 +1,4 @@
-# Grants Charter
-
-```{admonition} Legacy Wiki Page
-:class: note
-
-This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
-```
-
-## PSF Grants Workgroup Charter 
+# PSF Grants Work Group Charter
 
 ### Purpose & Common Goals 
 
@@ -231,19 +223,20 @@ Chair: Marie Nordin (North America, non-voting)
 
 Vice Chair:
 
-- Cheuk Ting Ho (UK / Asia)
+- Karolina Ladino (South America)
 
 Appointed Board Director:
 
-- Christopher Neugebauer (Australia/North America)
+- TBD
 
 Participants:
 
 - Aaron Yankey (Africa, Ghana)
 - Afape Temiloluwa Ruth (Africa, Nigeria)
+- Cheuk Ting Ho (UK / Asia)
+- Christopher Neugebauer (Australia/North America)
 - Chukwudi Nwachukwu (Africa)
 - Fernando Masanori (South America)
-- Karolina Ladino (South America)
 - Kevin Rodriguez-Turcios (South America/North America)
 - Kushal Das (Asia)
 - Michael Iyanda (Africa, Nigeria)
