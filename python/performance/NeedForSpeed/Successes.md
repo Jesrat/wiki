@@ -58,7 +58,7 @@ Things we think the Python community will like.
 
 - Worked on using profile guided optimizations in Visual Studio 8 ([KristjanJonsson](./KristjanJonsson.html), RichardMTew). This appears to give on the order of 15% speed improvement in the pybench test suite. A new PCBuild8 directory will be added with automated mechanisms for doing this.
 
-- Patch 1442927 aimed at speeding `long(str, base)`{.backtick} operations. It required major fiddling for portability, endcase correctness, and avoiding significant slowdowns on shorter input strings. Now it\'s up to 6x faster, although it takes a lot of digits to get that, and it\'s still slower for 1-digit inputs. ([TimPeters](../../people/TimPeters))
+- Patch 1442927 aimed at speeding `long(str, base)` operations. It required major fiddling for portability, endcase correctness, and avoiding significant slowdowns on shorter input strings. Now it\'s up to 6x faster, although it takes a lot of digits to get that, and it\'s still slower for 1-digit inputs. ([TimPeters](../../people/TimPeters))
 
 Speedups at various lengths for decimal inputs, comparing 2.4.3 with current trunk:
 
@@ -143,7 +143,7 @@ Speedups at various lengths for decimal inputs, comparing 2.4.3 with current tru
         ------------------    -------------    -----------   -----------
         int(round(5.375))     0.975            0.461         0.015
 
-- ![/!\\](/wiki/europython/img/alert.png "/!\") NB. These operations now all take 0.016 seconds because they are constant-folded! You need examples with non-constant arguments in the branchmarks. Also, you need to compile Psyco in debugging mode for testing - some of these examples generate fatal assertion errors in the Psyco-NFS branch. ([ArminRigo](./ArminRigo.html))
+- ⚠️ NB. These operations now all take 0.016 seconds because they are constant-folded! You need examples with non-constant arguments in the branchmarks. Also, you need to compile Psyco in debugging mode for testing - some of these examples generate fatal assertion errors in the Psyco-NFS branch. ([ArminRigo](./ArminRigo.html))
 
 <!-- -->
 

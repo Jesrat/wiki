@@ -74,7 +74,7 @@ Ways to contribute:
 
 Pair up with someone to work on these!
 
-- [https://github.com/pypa/auditwheel/issues/108](https://github.com/pypa/auditwheel/issues/108) Auditwheel should warn on invalid versions, e.g. `dev`{.backtick}
+- [https://github.com/pypa/auditwheel/issues/108](https://github.com/pypa/auditwheel/issues/108) Auditwheel should warn on invalid versions, e.g. `dev`
 
 - in progress [https://github.com/pypa/warehouse/issues/6722](https://github.com/pypa/warehouse/issues/6722) Move \"show password\" checkbox on login form
 
@@ -161,13 +161,13 @@ Twine, pip, Warehouse; review some open pull requests, triage bugs to find ones 
 
 See [http://bit.ly/pypa2019 (Google Doc)](https://docs.google.com/document/d/1Wz2-ECkicJgAmQDxMFivWmU2ZunKvPZ2UfQ59zDGj7g/edit) for a live updated list!
 
-- Updating [the PyPA roadmap](https://www.pypa.io/en/latest/roadmap/) & planning for the next 6-12 months of Warehouse, `pip`{.backtick}, `pipenv`{.backtick}, and `twine`{.backtick} work
+- Updating [the PyPA roadmap](https://www.pypa.io/en/latest/roadmap/) & planning for the next 6-12 months of Warehouse, `pip`, `pipenv`, and `twine` work
 
   - Articulating which tools cover which jobs in the toolchain, checking for overlaps and gaps in scope
 
-  - Discussing which practices/functionality should be actively discouraged or deprecated in `setuptools`{.backtick}
+  - Discussing which practices/functionality should be actively discouraged or deprecated in `setuptools`
 
-  - Sorting out what should be in `setup()`{.backtick} vs `setup.cfg`{.backtick} vs `pyproject.toml`{.backtick}
+  - Sorting out what should be in `setup()` vs `setup.cfg` vs `pyproject.toml`
 
   - Creating a [package index upload API spec](https://github.com/pypa/packaging-problems/issues/128)
 
@@ -211,7 +211,7 @@ If you live in North America or Europe and would need assistance to attend this 
 
 **TO DO NOW**: If you live outside of the US or UK and would need an invitation letter to get a visa to travel to one of these sprints, please write to Kevin P. Fleming at Bloomberg, kpfleming AT bloomberg DOT net, and he\'ll start setting you up.
 
-**Purpose**: advance Python packaging/distro tools, teach new contributors (including many Bloomberg employees), and yeah, if you want to get to know Bloomberg for career reasons, that too. ![:)](/wiki/europython/img/smile.png%20":)") See [the Tech At Bloomberg site](https://www.techatbloomberg.com/events/).
+**Purpose**: advance Python packaging/distro tools, teach new contributors (including many Bloomberg employees), and yeah, if you want to get to know Bloomberg for career reasons, that too. 🙂 See [the Tech At Bloomberg site](https://www.techatbloomberg.com/events/).
 
 Thanks to Bloomberg folks Mario Corchero and Henry Kleynhans in London and Kevin P. Fleming in New York City for coordinating this, and thanks especially to Mario and to Paul Ganssle for suggesting it!
 
@@ -241,17 +241,17 @@ Thanks to Bloomberg folks Mario Corchero and Henry Kleynhans in London and Kevin
 
 - Nick Coghlan, core Python developer (came for first/second day)
 
-- Donald Stufft, `pip`{.backtick} maintainer (came for first day)
+- Donald Stufft, `pip` maintainer (came for first day)
 
 - Luke Sneeringer, Warehouse contributor ([hoping to come] came first day)
 
-- Thea Flowers, Python Packaging User Guide and `readme_renderer`{.backtick} maintainer (came for first day)
+- Thea Flowers, Python Packaging User Guide and `readme_renderer` maintainer (came for first day)
 
-- Cooper Lees, `bandersnatch`{.backtick} maintainer (all 4 days)
+- Cooper Lees, `bandersnatch` maintainer (all 4 days)
 
 - Paul Ganssle, library maintainer (came for first 2 days)
 
-- Jason R. Coombs, `setuptools`{.backtick} maintainer (all 4 days)
+- Jason R. Coombs, `setuptools` maintainer (all 4 days)
 
 - Laura Hampton, Warehouse and Twine contributor
 
@@ -269,13 +269,13 @@ Thanks to Bloomberg folks Mario Corchero and Henry Kleynhans in London and Kevin
 
 **Things we are working on**:
 
-- Updating [the PyPA roadmap](https://www.pypa.io/en/latest/roadmap/) & planning for the next 6-12 months of Warehouse, `pip`{.backtick}, `pipenv`{.backtick}, and `twine`{.backtick} work
+- Updating [the PyPA roadmap](https://www.pypa.io/en/latest/roadmap/) & planning for the next 6-12 months of Warehouse, `pip`, `pipenv`, and `twine` work
 
   - Articulating which tools cover which jobs in the toolchain, checking for overlaps and gaps in scope
 
-  - Discussing which practices/functionality should be actively discouraged or deprecated in `setuptools`{.backtick}
+  - Discussing which practices/functionality should be actively discouraged or deprecated in `setuptools`
 
-  - Sorting out what should be in `setup()`{.backtick} vs `setup.cfg`{.backtick} vs `pyproject.toml`{.backtick}
+  - Sorting out what should be in `setup()` vs `setup.cfg` vs `pyproject.toml`
 
   - Creating a [package index upload API spec](https://github.com/pypa/packaging-problems/issues/128)
 
@@ -295,7 +295,7 @@ Thanks to Bloomberg folks Mario Corchero and Henry Kleynhans in London and Kevin
 
 - Making a [\"bus factor\" promo page](https://github.com/pypa/warehouse/issues/3121)
 
-- Discussing a new Twine API for use by `zest.releaser`{.backtick}, `flit`{.backtick}, etc.
+- Discussing a new Twine API for use by `zest.releaser`, `flit`, etc.
 
 - Triaging [Packaging Problems issues](https://github.com/pypa/packaging-problems/issues/)
 

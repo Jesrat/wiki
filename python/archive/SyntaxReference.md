@@ -57,7 +57,7 @@ This page aims to introduce the most important elements of [MoinMoin](MoinMoin)\
 
 - ***bold italics***
 
-- `monospace`{.backtick}
+- `monospace`
 
 - `source code`
 
@@ -166,7 +166,7 @@ This page aims to introduce the most important elements of [MoinMoin](MoinMoin)\
 
 - [WikiName](WikiName)s
 
-- `http://www.example.com`{.backtick}
+- `http://www.example.com`
 
 - [http://www.example.com/](http://www.example.com/)notlinked
 
@@ -389,23 +389,23 @@ object
 
 ***see:** [HelpOnMacros](HelpOnMacros)*
 
-- `<<Anchor(anchorname)>>`{.backtick} inserts a link anchor `anchorname`{.backtick}
+- `<<Anchor(anchorname)>>` inserts a link anchor `anchorname`
 
-- `<<BR>>`{.backtick} inserts a hard line break
+- `<<BR>>` inserts a hard line break
 
-- `<<FootNote(Note)>>`{.backtick} inserts a footnote saying `Note`{.backtick}
+- `<<FootNote(Note)>>` inserts a footnote saying `Note`
 
-- `<<Include(HelpOnMacros/Include)>>`{.backtick} inserts the contents of the page `HelpOnMacros/Include`{.backtick} inline
+- `<<Include(HelpOnMacros/Include)>>` inserts the contents of the page `HelpOnMacros/Include` inline
 
-- `<<MailTo(user AT example DOT com)>>`{.backtick} obfuscates the email address `user@example.com`{.backtick} to users not logged in
+- `<<MailTo(user AT example DOT com)>>` obfuscates the email address `user@example.com` to users not logged in
 
 ### Variables 
 
 ***see:** [HelpOnVariables](HelpOnVariables)*
 
-- `@`{.backtick}`SIG`{.backtick}`@`{.backtick} inserts your login name and timestamp of modification
+- `@SIG@` inserts your login name and timestamp of modification
 
-- `@`{.backtick}`TIME`{.backtick}`@`{.backtick} inserts date and time of modification
+- `@TIME@` inserts date and time of modification
 
 ## Smileys and Icons 
 
@@ -413,14 +413,14 @@ object
 
 | Markup | Display |  | Markup | Display |  | Markup | Display |  | Markup | Display |
 |---|---|---|---|---|---|---|---|---|---|---|
-| `X-(` | ![X-(](/wiki/europython/img/angry.png "X-(") |  | `:D` | ![:D](/wiki/europython/img/biggrin.png ":D") |  | `<:(` | ![\<:(](/wiki/europython/img/frown.png "<:(") |  | `:o` | ![:o](/wiki/europython/img/redface.png ":o") |
-| `:(` | ![:(](/wiki/europython/img/sad.png ":(") |  | `:)` | ![:)](/wiki/europython/img/smile.png%20":)") |  | `B)` | ![B)](/wiki/europython/img/smile2.png%20"B)") |  | `:))` | ![:))](/wiki/europython/img/smile3.png%20":))") |
-| `;)` | ![;)](/wiki/europython/img/smile4.png%20";)") |  | `/!\` | ![/!\\](/wiki/europython/img/alert.png "/!\") |  | `<!>` | ![\<!\>](/wiki/europython/img/attention.png "<!>") |  | `(!)` | ![(!)](/wiki/europython/img/idea.png%20"(!)") |
-| `:-?` | ![:-?](/wiki/europython/img/tongue.png ":-?") |  | `:\` | ![:\\](/wiki/europython/img/ohwell.png ":\") |  | `>:>` | ![\>:\>](/wiki/europython/img/devil.png ">:>") |  | `\|)` | ![\|)](/wiki/europython/img/tired.png%20"\|)") |
-| `:-(` | ![:-(](/wiki/europython/img/sad.png ":-(") |  | `:-)` | ![:-)](/wiki/europython/img/smile.png%20":-)") |  | `B-)` | ![B-)](/wiki/europython/img/smile2.png%20"B-)") |  | `:-))` | ![:-))](/wiki/europython/img/smile3.png%20":-))") |
-| `;-)` | ![;-)](/wiki/europython/img/smile4.png%20";-)") |  | `\|-)` | ![\|-)](/wiki/europython/img/tired.png%20"\|-)") |  | `(./)` | ![(./)](/wiki/europython/img/checkmark.png%20"(./)") |  | `{OK}` | ![{OK}](/wiki/europython/img/thumbs-up.png "{OK}") |
-| `{X}` | ![{X}](/wiki/europython/img/icon-error.png "{X}") |  | `{i}` | ![{i}](/wiki/europython/img/icon-info.png "{i}") |  | `{1}` | ![{1}](/wiki/europython/img/prio1.png "{1}") |  | `{2}` | ![{2}](/wiki/europython/img/prio2.png "{2}") |
-| `{3}` | ![{3}](/wiki/europython/img/prio3.png "{3}") |  | `{*}` | ![{\*}](/wiki/europython/img/star_on.png "{*}") |  | `{o}` | ![{o}](/wiki/europython/img/star_off.png "{o}") |  |  |  |
+| `X-(` | 😠 |  | `:D` | 😁 |  | `<:(` | ☹️ |  | `:o` | 😳 |
+| `:(` | 🙁 |  | `:)` | 🙂 |  | `B)` | 😎 |  | `:))` | 😄 |
+| `;)` | 😉 |  | `/!\` | ⚠️ |  | `<!>` | ❗ |  | `(!)` | 💡 |
+| `:-?` | 😛 |  | `:\` | 😕 |  | `>:>` | 😈 |  | `\|)` | 😴 |
+| `:-(` | 🙁 |  | `:-)` | 🙂 |  | `B-)` | 😎 |  | `:-))` | 😄 |
+| `;-)` | 😉 |  | `\|-)` | 😴 |  | `(./)` | ✔️ |  | `{OK}` | 👍 |
+| `{X}` | ❌ |  | `{i}` | ℹ️ |  | `{1}` | 1️⃣ |  | `{2}` | 2️⃣ |
+| `{3}` | 3️⃣ |  | `{*}` | ⭐ |  | `{o}` | ☆ |  |  |  |
 
 ## Parsers 
 
@@ -459,7 +459,7 @@ object
     }}}
 
 ::: 
-This is wiki markup in a **div** with [css] `class="red solid"`{.backtick}.
+This is wiki markup in a **div** with [css] `class="red solid"`.
 :::
 
 ## Admonitions 

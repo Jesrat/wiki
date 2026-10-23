@@ -123,11 +123,11 @@ Maybe:
 
   - *Resolution:* Ernest: [https://github.com/pypa/warehouse/issues/472#issuecomment-295899658](https://github.com/pypa/warehouse/issues/472#issuecomment-295899658) notes that this is not milestone1
 
-- [https://github.com/pypa/warehouse/issues/1536](https://github.com/pypa/warehouse/issues/1536) Tests depend on `manifest.json`{.backtick} existing
+- [https://github.com/pypa/warehouse/issues/1536](https://github.com/pypa/warehouse/issues/1536) Tests depend on `manifest.json` existing
 
   - *Resolution:* Dustin - not part of MVP milestone
 
-Sumana wonders whether previous decision was correct ![:)](/wiki/europython/img/smile.png%20":)") :
+Sumana wonders whether previous decision was correct 🙂 :
 
 - [https://github.com/pypa/warehouse/issues/2486](https://github.com/pypa/warehouse/issues/2486) File size limit error message should include size of the limit
 
@@ -144,7 +144,7 @@ Sumana wonders whether previous decision was correct ![:)](/wiki/europython/img/
 - [https://github.com/pypa/warehouse/issues/2170](https://github.com/pypa/warehouse/issues/2170) How to update the \"Description\" in pypi.org ?
 
   - Dustin - Likely not going to be supported
-    - Instead: staged releases [https://github.com/pypa/warehouse/issues/726](https://github.com/pypa/warehouse/issues/726) , supporting Markdown [https://github.com/pypa/warehouse/issues/2206](https://github.com/pypa/warehouse/issues/2206) , telling people to run `python setup.py check -r -s`{.backtick} first [https://github.com/pypa/python-packaging-user-guide/issues/210](https://github.com/pypa/python-packaging-user-guide/issues/210)
+    - Instead: staged releases [https://github.com/pypa/warehouse/issues/726](https://github.com/pypa/warehouse/issues/726) , supporting Markdown [https://github.com/pypa/warehouse/issues/2206](https://github.com/pypa/warehouse/issues/2206) , telling people to run `python setup.py check -r -s` first [https://github.com/pypa/python-packaging-user-guide/issues/210](https://github.com/pypa/python-packaging-user-guide/issues/210)
 
   - Ernest - not part of MVP milestone
 
@@ -160,7 +160,7 @@ Sumana wonders whether previous decision was correct ![:)](/wiki/europython/img/
 
 - [https://github.com/pypa/warehouse/issues/789](https://github.com/pypa/warehouse/issues/789) Dependency and Reverse Dependency
 
-  - *Resolution:* Ernest: Definitely not MVP/milestone1, this is a new feature ![:)](/wiki/europython/img/smile.png%20":)")
+  - *Resolution:* Ernest: Definitely not MVP/milestone1, this is a new feature 🙂
 
 **II. Discuss schedule and decide: what is our tentative deadline for the first milestone?** Assignments - what\'s on whose plate?
 

@@ -38,7 +38,7 @@ Two-factor authentication currently only applies to the login step, not package 
 
 We\'re adding scoped API tokens so you can upload a package using a token instead of a username and password.
 
-**In beta:** You can create and use API tokens to upload packages. API tokens provide an alternative way (instead of username and password) to authenticate when uploading packages to PyPI or Test PyPI. You can create a token for an entire PyPI account, in which case, the token will work for all projects associated with that account. Alternatively, you can limit a token\'s scope to a specific project. And then, manually or in your configuration file, when you upload, use `@token`{.backtick} for the username and the token string for the password. API token support is **in beta** so check the \"caution\" warning below.
+**In beta:** You can create and use API tokens to upload packages. API tokens provide an alternative way (instead of username and password) to authenticate when uploading packages to PyPI or Test PyPI. You can create a token for an entire PyPI account, in which case, the token will work for all projects associated with that account. Alternatively, you can limit a token\'s scope to a specific project. And then, manually or in your configuration file, when you upload, use `@token` for the username and the token string for the password. API token support is **in beta** so check the \"caution\" warning below.
 
 #### Audit log 
 
@@ -144,4 +144,4 @@ IRC: [#pypa-dev on Freenode](https://webchat.freenode.net/?channels=#pypa-dev) (
 
 Email: [distutils-sig mailing list](https://mail.python.org/mailman3/lists/distutils-sig.python.org/)
 
-Thank you for testing Warehouse! You\'re helping us secure this ecosystem, and future users of PyPI will appreciate it. ![:)](/wiki/europython/img/smile.png%20":)")
+Thank you for testing Warehouse! You\'re helping us secure this ecosystem, and future users of PyPI will appreciate it. 🙂

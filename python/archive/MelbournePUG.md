@@ -611,7 +611,7 @@ Monday, 7 September 2015, 6:00pm **at *Inspire 9: Level 1, 41 Stewart Street, Ri
 
 - Tyson Clugg - Selenium Page Adapter: [https://github.com/tysonclugg/selenium-page-adapter](https://github.com/tysonclugg/selenium-page-adapter)
 
-- Ed Schofield - Towards solving the Python 2/3 split with the `past`{.backtick} package: when backward compatibility is more important than forward compatibility, and how Python 3.x can run Python 2.x code automatically
+- Ed Schofield - Towards solving the Python 2/3 split with the `past` package: when backward compatibility is more important than forward compatibility, and how Python 3.x can run Python 2.x code automatically
 
 August meeting - Cancelled for Pycon AU: Monday, 3 August 2015: no meeting
 
@@ -626,7 +626,7 @@ This is a Pycon rehearsal session, please add the times for your presentations s
 - Ed Schofield - Interactive visualization for the curious - 30 minutes (if there\'s time)
 - Andrew Stuart - 30 minutes.
 
-All talks are [PyCon](../conferences/pycon/PyCon) rehearsals, so the speakers would welcome your feedback and criticism! ![:-)](/wiki/europython/img/smile.png%20":-)")
+All talks are [PyCon](../conferences/pycon/PyCon) rehearsals, so the speakers would welcome your feedback and criticism! 🙂
 
 Monday, 6 July 2015, 6:00pm **at *Inspire 9: Level 1, 41 Stewart Street, Richmond.***
 
